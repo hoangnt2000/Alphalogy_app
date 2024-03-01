@@ -1,0 +1,33 @@
+# @format
+
+name: getx_test
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  custom_rating_bar: ^2.0.5
+  get: 4.6.6
+  flutter:
+    sdk: flutter
+  flutter_rating_bar: ^4.0.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/image/
+    - assets/image/ic_rate_0.png
+    - assets/image/ic_rate_1.png
+    - assets/image/ic_rate_2.png
+    - assets/image/ic_rate_3.png
+    - assets/image/ic_rate_4.png
+    - assets/image/ic_rate_5.png
